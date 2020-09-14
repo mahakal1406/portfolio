@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AkshayCv</title>
+    <link rel="stylesheet" href="../css/cusor.css">
+</head>
+
+<body>
+    <section class="banner" id="home">
+        <div class="text-Bx">
+            <h2>Hello ,I'm <br><span> Akshay Mahakal</span></h2>
+            <h3>I'm a fullstack Developer</h3>
+            <a href="#about" class="btn">About Me</a>
+        </div>
+        <div class="circle"></div>
+    </section>
+    <script type="text/javascript">
+        const pos = document.documentElement;
+        pos.addEventListener('mousemove', e => {
+            pos.style.setProperty('--x', e.clientX + 'px');
+            pos.style.setProperty('--y', e.clientY + 'px');
+        });
+    </script>
+</body>
+
+</html>
